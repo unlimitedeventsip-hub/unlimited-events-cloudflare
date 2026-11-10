@@ -1,0 +1,8 @@
+{
+  "name":"unlimited-events-cloudflare",
+  "version":"1.0.0",
+  "private":true,
+  "type":"module",
+  "scripts":{"test":"node --test tests/*.test.mjs","dev":"wrangler pages dev public"},
+  "devDependencies":{"wrangler":"^4.0.0"}
+}

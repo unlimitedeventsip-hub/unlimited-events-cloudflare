@@ -1,0 +1,9 @@
+# Copy to .dev.vars for local development. NEVER commit the real .dev.vars.
+SUPABASE_URL=https://YOUR_PROJECT.supabase.co
+SUPABASE_SECRET_KEY=sb_secret_REPLACE_ME
+RESEND_API_KEY=re_REPLACE_ME
+EMAIL_FROM=Unlimited Events <contact@YOUR-VERIFIED-DOMAIN.ro>
+EMAIL_TO=unlimited.events.ip@gmail.com
+# Recommended in production (both variables together):
+TURNSTILE_SITE_KEY=
+TURNSTILE_SECRET_KEY=
